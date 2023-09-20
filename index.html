@@ -72,7 +72,6 @@ function game(n) {
         let playerSelection = prompt(`Rock, paper or Scissors?`, '').toLowerCase();
         let computerSelection = getComputerChoice();
         console.log(`Round: ${i}, Fight!`);
-        console.log(randomNumber);
         console.log(playRound(playerSelection, computerSelection));
         console.log(`Current score --- Player: ${playerScore} : Computer: ${computerScore}`)
         if (playerScore === 3 || computerScore === 3)
